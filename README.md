@@ -60,6 +60,21 @@ python 123.m
 </center>
 
 
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="./figures/img_1.jpg" width="300"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="./figures/img_4001.png" width="300"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+
 2. White Balance (WB)
 
 ```
