@@ -38,7 +38,7 @@
 TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字、多國文字、傾斜招牌文字、不同尺寸文字、外物遮蔽、類文字圖案紋理干擾、光線與陰影等。
 - 訓練集 4000 張 有標籤
 - 測試集 1000 張 （Public Dataset) 無標籤
-
+- 測試集 2500 張 （Private Dataset) 無標籤
 
 
 取自"[繁體中文場景文字辨識競賽官網](https://tbrain.trendmicro.com.tw/Competitions/Details/13)"。
@@ -47,10 +47,13 @@ TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字
 
 我們採用兩種影像增強的方式對訓練集做資料擴增。
 1. Contrast Limited Adaptive Histogram Equalization (CLAHE)
+```
+python 123.py
+```
 2. White Balance (WB)
 
 ```
-python detection.py
+python 456.py
 ```
 
 
@@ -66,17 +69,22 @@ python detection.py
 
 
 ## Test
-pretrained weight :  
-
+ 
+Download : "[pretrained weight]()"
 
 ```
 python detection.py
 ```
 
+
+轉檔:
+
+
+
 ## Results
 
 
-<img src="./figures/results.jpg" width = "1000" height = "600" div align=center />
+<img src="./figures/vis_results.jpg" width = "1000" height = "600" div align=center />
 
 
 
