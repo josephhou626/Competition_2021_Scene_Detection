@@ -7,19 +7,27 @@
 
 
 ## Installation
-場景文字-初階賽的模型採用"[YOLOv5](https://github.com/ultralytics/yolov5)"
+模型採用"[YOLOv5](https://github.com/ultralytics/yolov5)"
+
+```
+git clone https://github.com/ultralytics/yolov5  # clone
+cd yolov5
+pip install -r requirements.txt  # install
+
+```
 
 
 
 ## Train
-
-
+```
+python detection.py
+```
 
 
 ## Test
-
-
-
+```
+python detection.py
+```
 
 ## Results
 
