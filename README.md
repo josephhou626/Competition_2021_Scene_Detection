@@ -52,7 +52,7 @@ python 123.m
 ```
 
 **Example**
-<center class="half">
+<figure class="third">
 	<img src="./figures/img_1.jpg" width="300"/><img src="./figures/img_4001.png" width="300"/>
 </center>
 
