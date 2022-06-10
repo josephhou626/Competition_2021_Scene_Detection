@@ -52,14 +52,12 @@ python 123.m
 ```
 
 **Example**
-<!-- <figure class="half">
-	<img src="./figures/img_1.jpg" width="300"/><img src="./figures/img_4001.png" width="300"/>
-</figure> -->
 
 
-1 <center class="half">
-2    <img src="./figures/img_1.jpg" width="300"/><img src="./figures/img_4001.png" width="300"/>
-3 </center>
+
+<center class="half">
+    <img src="./figures/img_1.jpg" width="300"/><img src="./figures/img_4001.png" width="300"/>
+</center>
 
 
 2. White Balance (WB)
