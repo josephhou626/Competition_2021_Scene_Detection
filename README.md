@@ -53,13 +53,6 @@ python 123.m
 
 **Example**
 
-
-
-<center class="half">
-    <img src="./figures/img_1.jpg" width="200"/><img src="./figures/img_4001.png" width="200"/>
-</center>
-
-
 <div id="image-table">
     <table>
 	    <tr>
