@@ -2,6 +2,7 @@
 
 
 ## Description
+<img src="./figures/cover.png" width = "600"  div align=center />
 
 這是參加"[繁體中文場景文字辨識競賽－初階：場景文字](https://tbrain.trendmicro.com.tw/Competitions/Details/13)"的佳作紀錄。
 
@@ -102,7 +103,7 @@ python detection.py
 ## Results
 
 
-<img src="./figures/vis_results.jpg" width = "1000" height = "600" div align=center />
+<img src="./figures/vis_results.jpg" width = "1000" div align=center />
 
 
 
