@@ -56,7 +56,7 @@ python 123.m
 
 
 <center class="half">
-    <img src="./figures/img_1.jpg" width="300"/><img src="./figures/img_4001.png" width="300"/>
+    <img src="./figures/img_1.jpg" width="200"/><img src="./figures/img_4001.png" width="200"/>
 </center>
 
 
