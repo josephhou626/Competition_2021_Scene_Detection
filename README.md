@@ -48,8 +48,14 @@ TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字
 我們採用兩種影像增強的方式對訓練集做資料擴增。
 1. Contrast Limited Adaptive Histogram Equalization (CLAHE)
 ```
-python 123.py
+python 123.m
 ```
+
+**Example**
+<center class="half">
+	<img src="./figures/img_1.jpg" width="300"/><img src="./figures/img_4001.jpg" width="300"/>
+</center>
+
 2. White Balance (WB)
 
 ```
