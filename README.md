@@ -32,7 +32,7 @@ python detection.py
 ## Results
 
 
-<img src="./figure/results.jpg" width = "1000" height = "600" div align=center />
+<img src="./figures/results.jpg" width = "1000" height = "600" div align=center />
 
 
 
