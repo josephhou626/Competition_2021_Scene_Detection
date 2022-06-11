@@ -42,6 +42,15 @@ TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字
 - 測試集 2500 張 （Private Dataset) 無標籤
 
 
+   ```
+   dataset
+   |-----train (put image here)
+   |-----val (put image here)
+   |-----test (put image here)
+   ```
+
+
+
 取自"[繁體中文場景文字辨識競賽官網](https://tbrain.trendmicro.com.tw/Competitions/Details/13)"。
 
 ## Data Augmentation
