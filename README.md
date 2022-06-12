@@ -101,10 +101,10 @@ TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字
 - Pre-trained weight，我們是採用yolov5x6。
 
 
-1. Download yolov5 pretrained weight : "[yolov5x6](https://github.com/ultralytics/yolov5/releases)"
+- Download yolov5 pretrained weight : "[yolov5x6](https://github.com/ultralytics/yolov5/releases)"
 
 
-2. training commands :
+- Training commands :
 	```
 	python train.py --data data\SceneDetection.yaml --name aim_scene_dectection --batch-size 16 --multi-scale
 
@@ -118,7 +118,7 @@ TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字
 
 
 ## Test
-1. testing commands :
+- Testing commands :
 	```
 	python detect.py  --name aim_scene_dectection --save-txt
 	```
