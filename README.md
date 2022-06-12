@@ -75,18 +75,18 @@
 1. Contrast Limited Adaptive Histogram Equalization (CLAHE)
 
 
-**範例**
+	**範例**
 
-<table>
-  <tr>
-    <td> <img src="./figures/img_1.jpg" width="300"/> </td>
-    <td> <img src="./figures/img_4001.png" width="300"/> </td>
-  </tr>
-  <tr>
-    <td><p align="center"><b>Original images</b></p></td>
-    <td><p align="center"> <b>CLAHE images</b></p></td>
-  </tr>
-</table>
+	<table>
+	  <tr>
+		<td> <img src="./figures/img_1.jpg" width="300"/> </td>
+		<td> <img src="./figures/img_4001.png" width="300"/> </td>
+	  </tr>
+	  <tr>
+		<td><p align="center"><b>Original images</b></p></td>
+		<td><p align="center"> <b>CLAHE images</b></p></td>
+	  </tr>
+	</table>
 
 
 
