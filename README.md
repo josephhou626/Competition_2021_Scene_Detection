@@ -43,14 +43,14 @@ TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字
 
 
    ```
-   dataset/img
+   datasets/img
    |-----train (put image here)
    |-----val (put image here)
    |-----test (put image here)
    ```
 
    ```
-   dataset/txt
+   datasets/txt
    |-----train (put corresponding txt)
    |-----val (put corresponding txt)
    |-----test (put corresponding txt)
