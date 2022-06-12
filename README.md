@@ -79,8 +79,8 @@
 
 	<table>
 	  <tr>
-		<td> <img src="./figures/img_1.jpg" width="300"/> </td>
-		<td> <img src="./figures/img_4001.png" width="300"/> </td>
+		<td> <img src="./figures/clahe_img_1.jpg" width="300"/> </td>
+		<td> <img src="./figures/clahe_img_4001.png" width="300"/> </td>
 	  </tr>
 	  <tr>
 		<td><p align="center"><b>Original images</b></p></td>
@@ -91,7 +91,17 @@
 
 
 2. White Balance (WB)
-
+	**範例**
+	<table>
+	  <tr>
+		<td> <img src="./figures/wb_img_3.jpg" width="300"/> </td>
+		<td> <img src="./figures/wb_img_4003.png" width="300"/> </td>
+	  </tr>
+	  <tr>
+		<td><p align="center"><b>Original images</b></p></td>
+		<td><p align="center"> <b>WB images</b></p></td>
+	  </tr>
+	</table>
 
 
 
