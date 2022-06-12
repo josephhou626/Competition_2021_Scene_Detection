@@ -1,11 +1,8 @@
 # 2021 AI Cup Preliminary: Scene Text Detection
-
-
-## Description
 <img src="./figures/cover.png" width = "600"  div align=center />
 
+## Description
 這是參加"[繁體中文場景文字辨識競賽－初階：場景文字](https://tbrain.trendmicro.com.tw/Competitions/Details/13)"的佳作(10/341)紀錄。
-
 本次賽事目標即為定位畫面中肉眼可識的文字位置，場景為台灣市區街景，期望參賽者利用機器學習/深度學習技術，嘗試與開發適當的模型，
 以確偵測台灣街景畫面中的文字區域。
 
@@ -106,7 +103,7 @@
 
 
 ## Train
-- Pre-trained weight，我們是採用yolov5x6。
+- YOLOv5的 Pre-trained weight，我們是採用yolov5x6。
 
 
 - Download yolov5 pretrained weight : "[yolov5x6](https://github.com/ultralytics/yolov5/releases)"
