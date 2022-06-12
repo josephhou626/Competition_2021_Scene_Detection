@@ -47,12 +47,12 @@
    ```
 
 ## Dataset
-TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字、多國文字、傾斜招牌文字、不同尺寸文字、外物遮蔽、類文字圖案紋理干擾、光線與陰影等。
-- 訓練集 4000 張 有標籤
-- 測試集 1000 張 （Public Dataset) 無標籤
-- 測試集 2500 張 （Private Dataset) 無標籤
+- TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字、多國文字、傾斜招牌文字、不同尺寸文字、外物遮蔽、類文字圖案紋理干擾、光線與陰影等。
+	- 訓練集 4000 張 有標籤
+	- 測試集 1000 張 （Public Dataset) 無標籤
+	- 測試集 2500 張 （Private Dataset) 無標籤
 
-**放入資料集的images和按照yolov5格式的box座標**
+- 放入資料集的images和按照yolov5格式的box座標 : 
    ```
    datasets/images
    |-----train (put image here)
