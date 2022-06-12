@@ -136,7 +136,8 @@
 
 
 ## Reference
-- "[YOLOv5](https://github.com/ultralytics/yolov5)"
+- 模型取自 : "[YOLOv5](https://github.com/ultralytics/yolov5)"
+- 資料集取自 : "[繁體中文場景文字辨識競賽官網](https://tbrain.trendmicro.com.tw/Competitions/Details/13)"。
 
 
 
