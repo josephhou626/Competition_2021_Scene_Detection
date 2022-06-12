@@ -14,6 +14,7 @@
 
 - Windows 10 
 - GeForce RTX 3090 GPU
+- python3.8.6
 - torch=1.8.1
 - torchvision=0.9.1 
 
@@ -23,12 +24,24 @@
 - 主要是利用"[YOLOv5](https://github.com/ultralytics/yolov5)"來做物件偵測。
 - Pre-trained weight，我們是採用yolov5x6。
 
-1. Clone this repo:
+
+1. install virtual environment:
+	```shell
+	virtualenv -p python3 exp2 # establish
+	.\exp2\Scripts\activate # activate 
+	```
+
+2. Clone this repo:
 	```shell
 	git clone https://github.com/josephhou626/AIM_Scene_Detection.git # clone
 	```
 
-2. Install dependencies:
+3. Install torch and torchvision:
+	```shell
+	pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio===0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+	```
+
+4. Install dependencies:
 
    ```shell
    cd yolov5
@@ -41,19 +54,19 @@ TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字
 - 測試集 1000 張 （Public Dataset) 無標籤
 - 測試集 2500 張 （Private Dataset) 無標籤
 
-
+**set dataset**
    ```
-   datasets/img
+   datasets/images
    |-----train (put image here)
    |-----val (put image here)
    |-----test (put image here)
    ```
 
    ```
-   datasets/txt
-   |-----train (put corresponding txt)
-   |-----val (put corresponding txt)
-   |-----test (put corresponding txt)
+   datasets/labels
+   |-----train (put corresponding txt here)
+   |-----val (put corresponding txt here)
+   |-----test (put corresponding txt here)
    ```
 
 
