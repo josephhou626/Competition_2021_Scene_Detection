@@ -52,7 +52,7 @@ TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字
 - 測試集 1000 張 （Public Dataset) 無標籤
 - 測試集 2500 張 （Private Dataset) 無標籤
 
-**Creating a data path needs to contain images and txts**
+**放入資料集的images和按照yolov5格式的box座標**
    ```
    datasets/images
    |-----train (put image here)
