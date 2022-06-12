@@ -105,10 +105,10 @@ python 456.py
 
 
 ## Train
-
+Download yolov5 pretrained weight : "[yolov5x6](https://github.com/ultralytics/yolov5/releases)"
 
 ```
-python detection.py
+python train.py
 ```
 
 
