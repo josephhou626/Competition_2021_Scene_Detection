@@ -39,9 +39,8 @@
 	```
 
 4. Install dependencies:
-
    ```shell
-   cd yolov5
+   cd main_scene_dection
    pip install -r requirements.txt
    ```
 
@@ -113,30 +112,25 @@
 
 
 - Training commands :
-	```
-	python train.py --data data\SceneDetection.yaml --name aim_scene_dectection --batch-size 16 --multi-scale
-
-	```
-
-- The training results will be placed in 
-
 	```shell
-	runs\train\aim_scene_dectection
+	cd main_scene_dection
+	python train.py --data data\SceneDetection.yaml --name aim_scene_dectection --batch-size 16 --multi-scale
 	```
+
+- The training results will be placed in .\runs\train\aim_scene_dectection
+
 
 
 ## Test
 
 - Testing commands :
-	```
+	```shell
+	cd main_scene_dection
 	python detect.py  --name aim_scene_dectection --save-txt
 	```
 
-- The testing results will be placed in 
+- The testing results will be placed in .\runs\detect\aim_scene_dectection
 
-	```shell
-	runs\detect\aim_scene_dectection
-	```
 
 
 ## Results
