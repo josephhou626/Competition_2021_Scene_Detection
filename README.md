@@ -96,8 +96,8 @@
     <td> <img src="./figures/img_4001.png" width="300"/> </td>
   </tr>
   <tr>
-    <td><p align="center"><b>Swin Transformer Layer</b></p></td>
-    <td><p align="center"> <b>Dual up-sample</b></p></td>
+    <td><p align="center"><b>Original images</b></p></td>
+    <td><p align="center"> <b>CLAHE images</b></p></td>
   </tr>
 </table>
 
