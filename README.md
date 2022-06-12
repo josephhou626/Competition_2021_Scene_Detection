@@ -1,4 +1,4 @@
-# AIM_Scene_Detection
+# 2021 AI Cup Preliminary: scene text detection
 
 
 ## Description
@@ -21,7 +21,7 @@
 
 
 ## Installation
-- 主要是利用"[YOLOv5](https://github.com/ultralytics/yolov5)"來做物件偵測。
+- 利用"[YOLOv5](https://github.com/ultralytics/yolov5)"來做物件偵測。
 - Pre-trained weight，我們是採用yolov5x6。
 
 
@@ -135,6 +135,11 @@ runs\detect\aim_scene_dectection
 
 
 <img src="./figures/vis_results.jpg" width = "1000" div align=center />
+
+
+
+## Reference
+- "[YOLOv5](https://github.com/ultralytics/yolov5)"
 
 
 
