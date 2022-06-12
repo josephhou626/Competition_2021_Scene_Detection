@@ -1,4 +1,4 @@
-# 2021 AI Cup Preliminary: scene text detection
+# 2021 AI Cup Preliminary: Scene Text Detection
 
 
 ## Description
@@ -22,10 +22,8 @@
 
 ## Installation
 - 利用"[YOLOv5](https://github.com/ultralytics/yolov5)"來做物件偵測。
-- Pre-trained weight，我們是採用yolov5x6。
 
-
-1. install virtual environment:
+1. Install virtual environment:
 	```shell
 	virtualenv -p python3 exp2 # establish
 	.\exp2\Scripts\activate # activate 
@@ -100,35 +98,36 @@ TBrain 平台提供的場景文字資料集,場景中可能出現多型態文字
 
 
 ## Train
+- Pre-trained weight，我們是採用yolov5x6。
+
+
 1. Download yolov5 pretrained weight : "[yolov5x6](https://github.com/ultralytics/yolov5/releases)"
 
 
-2. 
+2. training commands :
 	```
 	python train.py --data data\SceneDetection.yaml --name aim_scene_dectection --batch-size 16 --multi-scale
 
 	```
 
-The training results will be placed in 
+- The training results will be placed in 
 
-```shell
-runs\train\aim_scene_dectection
-```
+	```shell
+	runs\train\aim_scene_dectection
+	```
 
 
 ## Test
- 
-Download : "[pretrained weight]()"
+1. testing commands :
+	```
+	python detect.py  --name aim_scene_dectection --save-txt
+	```
 
-```
-python detect.py  --name aim_scene_dectection --save-txt
-```
+- The testing results will be placed in 
 
-The testing results will be placed in 
-
-```shell
-runs\detect\aim_scene_dectection
-```
+	```shell
+	runs\detect\aim_scene_dectection
+	```
 
 
 ## Results
