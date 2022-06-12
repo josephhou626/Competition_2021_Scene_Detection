@@ -67,7 +67,7 @@
    ```
 
 
-取自"[繁體中文場景文字辨識競賽官網](https://tbrain.trendmicro.com.tw/Competitions/Details/13)"。
+資料集取自"[繁體中文場景文字辨識競賽官網](https://tbrain.trendmicro.com.tw/Competitions/Details/13)"。
 
 ## Data Augmentation
 
@@ -75,7 +75,7 @@
 1. Contrast Limited Adaptive Histogram Equalization (CLAHE)
 
 
-**Example**
+**範例**
 
 <div id="image-table">
     <table>
@@ -89,6 +89,17 @@
         </tr>
     </table>
 </div>
+
+<table>
+  <tr>
+    <td> <img src="./figures/img_1.jpg" width="300"/> </td>
+    <td> <img src="./figures/img_4001.png" width="300"/> </td>
+  </tr>
+  <tr>
+    <td><p align="center"><b>Swin Transformer Layer</b></p></td>
+    <td><p align="center"> <b>Dual up-sample</b></p></td>
+  </tr>
+</table>
 
 
 
